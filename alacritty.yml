@@ -1,0 +1,50 @@
+window:
+  padding:
+    x: 5
+    y: 5
+  startup_mode: Maximized
+
+scrolling:
+  # Maximum number of lines in the scrollback buffer.
+  history: 10000
+
+  # Scrolling distance multiplier.
+  multiplier: 3
+
+colors:
+  primary:
+    foreground: '#d0cfcc'
+    background: '#171421'
+        
+  normal:
+    black:   '#171421'
+    red:     '#E06C75'
+    green:   '#98c379'
+    yellow:  '#e9ad0c'
+    blue:    '#61AFEF'
+    magenta: '#C678DD'
+    cyan:    '#56B6C2'
+    white:   '#d0cfcc'
+        
+  bright:
+    black:   '#5e5c64'
+    red:     '#f66151'
+    green:   '#33d17a'
+    yellow:  '#e9ad0c'
+    blue:    '#2a7bde'
+    magenta: '#c061cb'
+    cyan:    '#33c7de'
+    white:   '#ffffff'
+  
+  vi_mode_cursor:
+    text: CellForeground
+    cursor: '#FE2F03'
+
+font:
+  normal:
+    family: UbuntuMono Nerd Font
+  bold:
+    family: UbuntuMono Nerd Font
+  italic:
+    family: UbuntuMono Nerd Font
+  size: 12.0
